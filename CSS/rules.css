@@ -1,0 +1,106 @@
+body {
+    /*Seletor Universal '*' */
+    background-color: #b11313;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #2437b6   ; 
+    width: 80%; /*Largura*/
+    height: 10vh; /*Altura*/
+    margin-left: 9%;
+ /*Valor Espessura, tipo Traço, Cor linha*/
+    border: 3px solid #000000;
+
+    display: flex; /*Alinhamento interno do conteiner*/
+    justify-content: center; /*Alinhamento Horizontal*/
+    align-items: center; /*Alinhamento Vertical*/
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    color: white;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+section {
+    width: 100%;/*Largura\tamanho*/
+    text-align: center;/*Alinhamento de texto*/
+    margin-top: 10px;/*Margem de cima*/
+    
+}
+
+
+
+
+section.usar h2 {
+    color: white;
+    margin-bottom: 15px;
+    text-shadow:3px 2px #1a1a1a;
+}
+
+
+
+
+section.usar p {
+    color:rgb(255, 255, 255);
+    letter-spacing: 0.1rem;
+}
+
+
+section.usar img {
+    margin-top: 15px;
+    border: 5px solid black;
+}
+
+
+section.text {
+    background-color: green;
+}
+
+
+
+section.color {
+    background-color: blue;
+}
+
+
+
+
+section.font {
+    border-top: 18px solid #660e0e;
+   color: white;
+   font-weight: 300;
+}
+
+
+section.font p {
+    text-align: justify;
+}
+
+
+li {
+    text-align: justify;
+}
+
+section.font img {
+    margin-top: 15px;
+    border: 5px solid black;
+}
+
+span {
+    background-color: #000000;
+    color: white;
+    padding: 1px;
+    font-family: monospace;
+    font-size: 0.8rem;
+}
+

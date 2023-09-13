@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos do CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*Seletor é o nome ou  id de uma <tag>*/
+        h4 {
+            color: rgb(255, 255, 255);
+            background-color: rgb(32, 36, 124);
+            border: 5px solid rgb(18, 17, 36);}
+
+
+            /*Nível de*/
+            section>p { text-align: center;
+                color: white;   
+                font-size: 1rem;
+                background-color: red;
+                border: 2px solid rgb(43, 12, 12);
+                font-weight: bold;
+
+            }
+    </style>
+</head>
+<body style="background-color: #333;">
+    <h1>CSS - Browser - Herança 5 posição</h1>
+    <h2>CSS - User-Style - Herança 4 posição</h2>
+    <h3>CSS - External - Herança 3 posição</h3>
+    <h4>CSS - Embedded - Herança 2 posição</h4>
+    <h5 style="color: rgb(238, 10, 10); font-size: 1.5rem;">CSS - Inline - Herança 1 posição</h5>
+    <br>
+
+    <p style="text-align: right; color: aqua;">Este parágrafo está possuído pelo estilo inline</p>
+    <p>Este parágrafo não</p>
+    <br>
+    
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Vitae mollitia repellat
+              vero assumenda, laudantium quaerat minima
+               in illum debitis iste iure minus, omnis,
+                quisquam beatae modi inventore dolor adipisci esse.
+            </p>
+    </section>
+    <br>
+
+    <ul>
+        <li>Browser</li>
+        <li style="font-size: 25px; color: yellow;">Inline</li>
+        <li><a href="#">Chama</a></li>
+    </ul>
+    <a href="#">Embedded</a> |
+    <a href="#">Mais um a perdido por aí</a>
+    <br>
+
+    <p id="escolhido">Esse parágrafo é o escolhido!</p>
+    <p>Esse já não ele é normalzinho</p>
+    <br><hr>
+
+    <footer>by Nycolas Araújo&copy;</footer>
+</body>
+</html>
